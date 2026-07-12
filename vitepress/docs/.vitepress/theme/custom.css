@@ -87,6 +87,76 @@
   animation: homeFadeIn 0.8s ease 0.3s both;
 }
 
+/* ── 杂志引文风 · 场景列表 ── */
+.VPHome .vp-doc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.VPHome .vp-doc ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+
+.VPHome .vp-doc ul li:last-child {
+  border-bottom: none;
+}
+
+.VPHome .vp-doc ul li::before {
+  content: '▸ ';
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+}
+
+/* ── 引文块 ── */
+.VPHome .vp-doc .pull-quote {
+  margin: 36px 0;
+  padding: 24px 32px;
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+  border-radius: 0 12px 12px 0;
+}
+
+.VPHome .vp-doc .pull-quote p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--vp-c-text-1);
+  margin: 0;
+}
+
+.VPHome .vp-doc .pull-quote .pull-sub {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--vp-c-text-2);
+  margin-top: 8px;
+}
+
+/* ── 结尾渐变金句 ── */
+.VPHome .vp-doc .ending-gold {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 2px solid var(--vp-c-divider);
+}
+
+.VPHome .vp-doc .ending-gold .ending-label {
+  font-size: 16px;
+  color: var(--vp-c-text-2);
+  margin-bottom: 10px;
+}
+
+.VPHome .vp-doc .ending-gold .gold-text {
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #42d392, #647eff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 @keyframes homeFadeIn {
   from {
     opacity: 0;

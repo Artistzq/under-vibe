@@ -16,7 +16,8 @@ export default defineConfig({
         text: '开篇',
         items: [
           { text: '为什么需要这些知识', link: '/' },
-          { text: '不知道从哪开始？', link: '/start-here' }
+          { text: '不知道从哪开始？', link: '/start-here' },
+          { text: '不是不想选，是连选择题都做不了', link: '/technical-choices' }
         ]
       },
       {
