@@ -55,3 +55,45 @@
     transform: translateY(0);
   }
 }
+
+/* 首页 Hero name 渐变艺术字 */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #42d392, #647eff);
+}
+
+/* Hero name 字号放大（VitePress scoped CSS，需 !important 覆盖） */
+.VPHero .name {
+  font-size: 80px !important;
+  line-height: 80px !important;
+}
+
+@media (min-width: 640px) {
+  .VPHero .name {
+    font-size: 80px !important;
+    line-height: 80px !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero .name {
+    font-size: 80px !important;
+    line-height: 80px !important;
+  }
+}
+
+/* 首页内容渐显 */
+.VPHome .vp-doc {
+  animation: homeFadeIn 0.8s ease 0.3s both;
+}
+
+@keyframes homeFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
