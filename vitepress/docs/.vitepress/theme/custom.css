@@ -1,0 +1,57 @@
+/* Tabs 组件样式 */
+.tabs {
+  margin: 1rem 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabs-nav {
+  display: flex;
+  border-bottom: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+}
+
+.tabs-nav-item {
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.tabs-nav-item:hover {
+  color: var(--vp-c-brand);
+  background: var(--vp-c-bg-elv);
+}
+
+.tabs-nav-item.active {
+  color: var(--vp-c-brand);
+  border-bottom-color: var(--vp-c-brand);
+  background: var(--vp-c-bg-elv);
+}
+
+.tabs-content {
+  padding: 1rem 1.5rem;
+}
+
+.tabs-panel {
+  display: none;
+}
+
+.tabs-panel.active {
+  display: block;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
