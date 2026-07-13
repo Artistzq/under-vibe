@@ -10,47 +10,63 @@ hero:
     alt: Under Vibe
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 和鼠鼠一起学习
       link: /tutorial/start-here
     - theme: alt
-      text: 查看鼠鼠
-      link: https://github.com/Artistzq
+      text: 查看鼠鼠主页
+      link: https://github.com/kekenut
 
 features:
-  - icon: 💻
-    title: 术语扫盲
-    details: AI 说的那些词到底是什么意思，不再对程序员的对话一头雾水。
-  - icon: 🔧
-    title: 问题排查
-    details: 卡住的时候知道怎么自己排查，不用每次都从头解释上下文。
-  - icon: 🧠
-    title: 计算机思维
-    details: 建立基本的计算机思维，知道代码是怎么跑起来的。
-  - icon: 💬
-    title: AI 沟通
-    details: 用对术语说清楚需求，沟通效率翻倍，少走弯路。
+  - icon: 🖥️
+    title: 从零上手
+    details: 终端、文件系统、Agent 配置——重新认识你的电脑，打开就能跟着做。
+  - icon: 🧮
+    title: 数学基础
+    details: 离散数学入门，理解计算机的底层逻辑，不再是天书。
+  - icon: 🏛️
+    title: 经典基础
+    details: 网络、操作系统、组成原理、数据结构——用大白话讲核心知识。
+  - icon: 🏗️
+    title: 软件工程
+    details: 从写代码到做项目，建立工程化思维，知道好代码长什么样。
+  - icon: 🤖
+    title: AI 时代
+    details: AI 工具背后的原理，知道什么时候该信 AI，什么时候该自己查。
+  - icon: ⚡
+    title: 实战优化
+    details: 工作流程优化案例，效率翻倍少踩坑，从 vibecoder 到 vibemaster。
 ---
 
-## 这些场景你熟悉吗？
-
-- 想换个 AI 模型或 Agent 工具，要填 Model 和 BaseUrl，但不知道它们是干什么的
-- 想做个能互动的网站，但不知道数据该放哪
-- 脑子里有功能的样子，但摆在面前的技术选项完全看不懂——不是不想选，是连选择题都做不了
-- AI 写的代码和术语看不懂，只能无脑点"同意"
-- 报错信息看不懂，只能整段复制丢给 AI
-
-这些场景，每个 vibecoder 都经历过。
-
-<div class="pull-quote">
-  <p>问题不在于你"笨"，<br>而在于那些"忘了告诉你"的基础常识。</p>
-  <p class="pull-sub">程序员们天天用，反而忘了说——这很正常。</p>
-</div>
-
-而 Under Vibe 要做的，就是把这些知识一个一个补上。
-
-别担心，不会太难。AI 时代不需要你懂操作系统原理、网络底层——你只需要知道那些"该知道的"就够了。
-
-<div class="ending-gold">
-  <p class="ending-label">而且好消息是：</p>
-  <p class="gold-text">（截至目前为止）所有的计算机知识，都是人发明的，都是可以理解的。🤓</p>
+<div class="recent-section">
+  <h2 class="recent-heading">最近更新</h2>
+  <div class="recent-list">
+    <a class="recent-item" href="/tutorial/01-start-project/01-terminal-basics">
+      <span class="recent-date">07.13</span>
+      <span class="recent-line">
+        <span class="recent-title">终端基础</span>
+        <span class="recent-desc">命令行不可怕，cd、ls、pwd 三招搞定</span>
+      </span>
+    </a>
+    <a class="recent-item" href="/tutorial/01-start-project/02-file-system">
+      <span class="recent-date">07.13</span>
+      <span class="recent-line">
+        <span class="recent-title">文件系统</span>
+        <span class="recent-desc">绝对路径和相对路径，不再迷路</span>
+      </span>
+    </a>
+    <a class="recent-item" href="/tutorial/01-start-project/03-dependencies">
+      <span class="recent-date">07.13</span>
+      <span class="recent-line">
+        <span class="recent-title">安装依赖</span>
+        <span class="recent-desc">npm install 到底在干什么</span>
+      </span>
+    </a>
+    <a class="recent-item" href="/tutorial/start-here">
+      <span class="recent-date">07.12</span>
+      <span class="recent-line">
+        <span class="recent-title">从这里开始</span>
+        <span class="recent-desc">有想法，但不知道从哪开始？</span>
+      </span>
+    </a>
+  </div>
 </div>

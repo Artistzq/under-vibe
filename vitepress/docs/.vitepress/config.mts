@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: '前言',
         items: [
-          { text: '为什么要做这个项目？', link: '/tutorial/start-here' },
+          { text: '为什么要做这个项目？', link: '/tutorial/why-this-project' },
         ]
       },
       {
