@@ -20,4 +20,4 @@
 - 📝 进阶：架构篇
 :::
 
-继续学习：[终端基础](./01-start-project/01-terminal-basics)
+继续学习：[终端基础](./01-getting-started/01-terminal)

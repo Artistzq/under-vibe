@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 和鼠鼠一起学习
-      link: /tutorial/start-here
+      link: /tutorial/why-this-project
     - theme: alt
       text: 查看鼠鼠主页
       link: https://github.com/kekenut
@@ -40,21 +40,21 @@ features:
 <div class="recent-section">
   <h2 class="recent-heading">最近更新</h2>
   <div class="recent-list">
-    <a class="recent-item" href="/tutorial/01-start-project/01-terminal-basics">
+    <a class="recent-item" href="/tutorial/01-getting-started/01-terminal">
       <span class="recent-date">07.13</span>
       <span class="recent-line">
         <span class="recent-title">终端基础</span>
         <span class="recent-desc">命令行不可怕，cd、ls、pwd 三招搞定</span>
       </span>
     </a>
-    <a class="recent-item" href="/tutorial/01-start-project/02-file-system">
+    <a class="recent-item" href="/tutorial/01-getting-started/03-file-system">
       <span class="recent-date">07.13</span>
       <span class="recent-line">
         <span class="recent-title">文件系统</span>
         <span class="recent-desc">绝对路径和相对路径，不再迷路</span>
       </span>
     </a>
-    <a class="recent-item" href="/tutorial/01-start-project/03-dependencies">
+    <a class="recent-item" href="/tutorial/01-getting-started/04-dependencies">
       <span class="recent-date">07.13</span>
       <span class="recent-line">
         <span class="recent-title">安装依赖</span>

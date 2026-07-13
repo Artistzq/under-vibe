@@ -57,7 +57,7 @@ Under Vibe 要做的，就是帮你建立这种感知。
 
 ## 从哪开始？
 
-如果你刚有这个感觉，可以从 **[终端基础](/tutorial/01-start-project/01-terminal-basics)** 开始——它是你跟计算机对话的第一个工具，也是后续所有操作的基础。
+如果你刚有这个感觉，可以从 **[终端基础](/tutorial/01-getting-started/01-terminal)** 开始——它是你跟计算机对话的第一个工具，也是后续所有操作的基础。
 
 也可以先看看 **[新手引导](/tutorial/start-here)**，了解整份指南的路线图。
 

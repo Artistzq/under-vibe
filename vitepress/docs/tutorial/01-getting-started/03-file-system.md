@@ -145,6 +145,6 @@ cd "My Documents"
 
 ---
 
-上一篇：[终端基础](./01-terminal-basics)
+上一篇：[终端基础](./01-terminal)
 
-下一篇：[安装依赖](./03-dependencies)
+下一篇：[安装依赖](./04-dependencies)
