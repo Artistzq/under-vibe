@@ -1,10 +1,13 @@
 import DefaultTheme from 'vitepress/theme'
 import { onMounted } from 'vue'
+import InteractiveTerminal from './components/InteractiveTerminal.vue'
 import './custom.css'
 
 export default {
   ...DefaultTheme,
   enhanceApp({ app, router, siteData }) {
+    app.component('InteractiveTerminal', InteractiveTerminal)
+
     // Tabs 交互逻辑
     onMounted(() => {
       document.querySelectorAll('.tabs-nav-item').forEach(item => {
