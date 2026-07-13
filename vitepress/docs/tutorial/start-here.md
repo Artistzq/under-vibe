@@ -110,8 +110,8 @@ npm run dev
 ```
 
 如果你看不懂这两句话——没关系，
-回去看前两章：[终端基础](./docs/01-start-project/01-terminal-basics) 和
-[安装依赖](./docs/01-start-project/03-dependencies)。
+回去看前两章：[终端基础](./01-start-project/01-terminal-basics) 和
+[安装依赖](./01-start-project/03-dependencies)。
 
 看完你就懂了。
 

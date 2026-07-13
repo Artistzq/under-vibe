@@ -11,9 +11,9 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /start-here
+      link: /tutorial/start-here
     - theme: alt
-      text: 查看 GitHub
+      text: 查看鼠鼠
       link: https://github.com/Artistzq
 
 features:

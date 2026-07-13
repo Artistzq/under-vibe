@@ -9,38 +9,36 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '新手引导', link: '/start-here' }
+      { text: '文档', link: '/tutorial/start-here' }
     ],
     sidebar: [
       {
-        text: '开篇',
+        text: '前言',
         items: [
-          { text: '为什么需要这些知识', link: '/' },
-          { text: '不知道从哪开始？', link: '/start-here' },
-          { text: '不是不想选，是连选择题都做不了', link: '/technical-choices' }
+          { text: '为什么要做这个项目？', link: '/tutorial/start-here' },
         ]
       },
       {
         text: '第一阶段：开始新项目',
         items: [
-          { text: '终端基础', link: '/docs/01-start-project/01-terminal-basics' },
-          { text: '文件系统', link: '/docs/01-start-project/02-file-system' },
-          { text: '安装依赖', link: '/docs/01-start-project/03-dependencies' }
+          { text: '终端基础', link: '/tutorial/01-start-project/01-terminal-basics' },
+          { text: '文件系统', link: '/tutorial/01-start-project/02-file-system' },
+          { text: '安装依赖', link: '/tutorial/01-start-project/03-dependencies' }
         ]
       },
       {
         text: '第二阶段',
         items: [
-          { text: '项目运行不起来', link: '/coming-soon' }
+          { text: '项目运行不起来', link: '/tutorial/coming-soon' }
         ]
       },
       {
         text: '更多内容',
         items: [
-          { text: '代码有问题', link: '/coming-soon' },
-          { text: '保存分享代码', link: '/coming-soon' },
-          { text: '卡壳了怎么办', link: '/coming-soon' },
-          { text: '✨ 架构篇', link: '/coming-soon' }
+          { text: '代码有问题', link: '/tutorial/coming-soon' },
+          { text: '保存分享代码', link: '/tutorial/coming-soon' },
+          { text: '卡壳了怎么办', link: '/tutorial/coming-soon' },
+          { text: '✨ 架构篇', link: '/tutorial/coming-soon' }
         ]
       }
     ],
