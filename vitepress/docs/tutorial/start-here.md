@@ -111,7 +111,7 @@ npm run dev
 
 如果你看不懂这两句话——没关系，
 回去看前两章：[终端基础](./01-getting-started/01-terminal) 和
-[安装依赖](./01-getting-started/04-dependencies)。
+安装依赖。
 
 看完你就懂了。
 

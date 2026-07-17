@@ -303,3 +303,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* 让表格自动占满页面宽度 */
+.vp-doc table {
+  width: 100%;
+  display: table;
+}

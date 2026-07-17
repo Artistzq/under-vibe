@@ -204,19 +204,19 @@ function exec(cmdRaw) {
     },
 
     help: () => {
-      writeLine('Available commands:')
-      writeLine('  pwd          Print working directory')
-      writeLine('  ls [dir]     List directory contents')
-      writeLine('  cd [dir]     Change directory')
-      writeLine('  clear        Clear the screen')
-      writeLine('  mkdir <name> Create a directory')
-      writeLine('  touch <name> Create a file')
-      writeLine('  cat <file>   Show file contents')
-      writeLine('  echo [text]  Print text')
-      writeLine('  rm <name>    Remove a file')
-      writeLine('  help         Show this help')
+      writeLine('可用命令：')
+      writeLine('  pwd          显示当前所在目录')
+      writeLine('  ls [目录]    列出目录内容')
+      writeLine('  cd [目录]    切换目录')
+      writeLine('  clear        清屏')
+      writeLine('  mkdir <名>   创建目录')
+      writeLine('  touch <名>   创建文件')
+      writeLine('  cat <文件>   查看文件内容')
+      writeLine('  echo [文字]  输出文字')
+      writeLine('  rm <名>      删除文件')
+      writeLine('  help         显示此帮助')
       writeLine('')
-      writeLine('💡 Tip: Try pwd, ls, cd, and more!')
+      writeLine('💡 试试 pwd、ls、cd，不会弄坏任何东西！')
     },
 
     mkdir: () => {
@@ -464,10 +464,10 @@ function handleGlobalKeydown(e) {
 }
 
 onMounted(() => {
-  writeLine('试试刚学的 pwd、ls、cd 命令——就在下面的终端里敲！')
-  writeLine('输入 help 查看更多命令。')
+  writeLine('欢迎！这是一个沙盒终端，你可以在这里安全地练习命令。')
+  writeLine('试试 pwd、ls、cd —— 不会影响你的真实电脑。')
+  writeLine('输入 help 查看所有可用命令。')
   writeLine('')
-  container.value?.focus()
 })
 </script>
 

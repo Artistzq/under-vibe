@@ -1,11 +1,10 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid({
   title: 'Under Vibe',
   description: 'vibecoding 背后的计算机知识',
-  markdown: {
-    mermaid: true
-  },
+  mermaid: {},
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -19,14 +18,27 @@ export default defineConfig({
         ]
       },
       {
-        text: '上手篇：认识计算机',
+        text: '换个角度看电脑',
         items: [
-          { text: '重新认识电脑——终端', link: '/tutorial/01-getting-started/01-terminal' },
-          { text: '重新认识文件和文件夹', link: '/tutorial/01-getting-started/03-file-system' },
-          { text: '安装依赖：npm install 在干什么', link: '/tutorial/01-getting-started/04-dependencies' },
-          { text: '文件夹隔离：为什么每个项目要独立', link: '/tutorial/01-getting-started/05-isolation' },
-          { text: 'Agent 配置了什么', link: '/tutorial/01-getting-started/02-agent-config' },
-          { text: '环境变量：让程序知道自己在哪', link: '/tutorial/01-getting-started/06-environment-variables' },
+          {
+            text: '认识终端',
+            collapsed: false,
+            items: [
+              { text: '终端：那个黑窗口是什么', link: '/tutorial/01-getting-started/01-terminal' },
+              { text: '看懂一条命令：选项和参数', link: '/tutorial/01-getting-started/02-command-structure' },
+              { text: '文件系统：路径是怎么回事', link: '/tutorial/01-getting-started/03-file-system' },
+            ]
+          },
+          { text: '文件夹隔离：每个项目一个家', link: '/tutorial/01-getting-started/07-isolation' },
+          { text: 'Git：版本管理，后悔药和时光机', link: '/tutorial/01-getting-started/08-git' },
+          { text: '环境变量：程序的全局设置', link: '/tutorial/01-getting-started/06-environment-variables' },
+        ]
+      },
+      {
+        text: '软技能：编程不只是写代码',
+        items: [
+          { text: '搜索：AI 帮不了你的时候', link: '/tutorial/01-getting-started/09-search' },
+          { text: '开发视野：别急着让 AI 造轮子', link: '/tutorial/02-cs-fundamentals/05-research/01-intro' },
         ]
       },
       {
@@ -71,13 +83,6 @@ export default defineConfig({
             ]
           },
           {
-            text: '开发视野：别急着让 AI 造轮子',
-            collapsed: true,
-            items: [
-              { text: '先搜搜看：竞品、框架、开源方案', link: '/tutorial/02-cs-fundamentals/05-research/01-intro' },
-            ]
-          },
-          {
             text: '编译原理',
             collapsed: true,
             items: [
@@ -103,7 +108,6 @@ export default defineConfig({
       {
         text: '工程篇：从写代码到做项目',
         items: [
-          { text: 'Git：版本管理，后悔药和时光机', link: '/tutorial/03-engineering/01-git' },
           { text: '一个正经项目长什么样', link: '/tutorial/03-engineering/02-project-structure' },
           { text: '配置文件：.json .yaml .env 是干什么的', link: '/tutorial/03-engineering/03-config-files' },
           { text: '部署：把代码从本地搬到网上', link: '/tutorial/03-engineering/04-deployment' },
@@ -114,6 +118,7 @@ export default defineConfig({
       {
         text: 'AI 篇：理解你的副驾驶',
         items: [
+          { text: 'Agent 配置了什么', link: '/tutorial/01-getting-started/02-agent-config' },
           { text: 'Token 和 Context：为什么 AI 会"忘"', link: '/tutorial/05-ai/01-tokens-context' },
           { text: '模型怎么选', link: '/tutorial/05-ai/02-model-selection' },
           { text: 'Prompt 怎么写效果更好', link: '/tutorial/05-ai/03-prompt-basics' },
