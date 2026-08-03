@@ -10,7 +10,7 @@
 
 ## 前言
 
-终端（Terminal）是操作系统提供的一种文本交互界面：用户通过键盘输入命令，系统执行后以文本形式返回结果。与图形界面（GUI，即日常用鼠标点击图标操作的界面）不同，终端没有按钮或图标，仅由一个输入光标与字符输出构成。
+终端（Terminal）是电脑上的一种文本交互界面：用户通过键盘输入命令，电脑执行后以文本形式返回结果。与图形界面（GUI，即日常用鼠标点击图标操作的界面）不同，终端没有按钮或图标，仅由一个输入光标与字符输出构成。
 
 ::: tip 💡 你可能之前称之为"黑窗口"
 终端窗口通常为深色背景、纯文本输出，因此常被俗称为"黑窗口"。
@@ -29,7 +29,7 @@
   </div>
   <div class="outcome-card">
     <span class="outcome-check">2</span>
-    <div><strong>终端是当下 AI 的原生接口</strong><br>大语言模型以纯文本输入输出，终端与 AI Agent 天然适配。</div>
+    <div><strong>终端是当下 AI 的原生接口</strong><br>到目前为止，大部分大语言模型以纯文本输入输出，终端与 AI Agent 天然适配。</div>
   </div>
 </div>
 
@@ -66,7 +66,11 @@ pwd
 /Users/yourname
 ```
 
-`pwd`（Print Working Directory）输出 Shell 当前的工作目录（Working Directory，即"现在所在的文件夹"）。
+`pwd`（Print Working Directory）输出 Shell 当前的工作目录（Working Directory），即命令执行时所在的文件夹。
+
+::: tip 💡 工作目录是什么？
+工作目录就是终端"当前站在哪个文件夹里"。它相当于图形界面中文件管理器当前显示的位置——Windows 的"此电脑"、macOS 的"访达"，你打开到哪个文件夹，那里就是当前目录。
+:::
 
 ::: tip 💡 小提示
 **pwd** = Print Working Directory（打印当前工作目录），即"告诉我，我现在在哪"。
@@ -82,7 +86,7 @@ ls
 dir
 ```
 
-`ls`（List）列出当前工作目录（即当前文件夹）下的条目（文件与子目录）；Windows PowerShell 中对应命令为 `dir`。
+`ls`（List）列出当前工作目录（即当前文件夹）下的子目录（子文件夹）与文件；Windows PowerShell 中对应命令为 `dir`。
 
 ::: tip 💡 小提示
 `ls` 的输出等同于图形界面中"打开文件夹看到的内容"，只是以文本形式呈现。
@@ -220,7 +224,7 @@ cd "My Project"
 - 重新输入即可
 
 ::: tip 💡 放心
-终端是最安全的地方之一：输入错误命令不会损坏系统，大多数危险操作（如删除）需要显式指定路径才生效。
+输错命令本身不会损坏电脑，但删除类操作（如 `rm` / `Remove-Item`）不可恢复，执行前务必确认路径。
 :::
 
 ### 坑 3：中文乱码
@@ -329,7 +333,7 @@ cd "My Project"
 | **终端 (Terminal)** | 以文本方式输入命令、接收输出的交互界面 |
 | **命令 (Command)** | 符合特定语法的文本指令，由 Shell 解析执行并产生效果 |
 | **Shell** | 真正解释并执行命令的程序，终端只是其交互载体 |
-| **工作目录 (Working Directory)** | Shell 当前所处的位置，`pwd` 可查看 |
+| **工作目录 (Working Directory)** | Shell 当前所在的文件夹，`pwd` 可查看 |
 | **目录 (Directory)** | 即日常所说的"文件夹"，文件系统中的一个容器 |
 | **路径 (Path)** | 描述文件或文件夹位置的字符串，如 `/Users/yourname/Documents` |
 | **pwd** | Print Working Directory，打印当前工作目录 |
