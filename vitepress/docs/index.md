@@ -47,13 +47,6 @@ features:
         <span class="recent-desc">课程路线地图，整段旅程一图看懂</span>
       </span>
     </a>
-    <a class="recent-item" href="/tutorial/plan">
-      <span class="recent-date">08.04</span>
-      <span class="recent-line">
-        <span class="recent-title">学习路径与目录规划</span>
-        <span class="recent-desc">预目录：双线课程结构与章节状态，一目了然</span>
-      </span>
-    </a>
     <a class="recent-item" href="/tutorial/01-project-startup/01-terminal">
       <span class="recent-date">08.03</span>
       <span class="recent-line">

@@ -72,7 +72,19 @@ under-vibe/
             └── side-topics/                  # 支线 · 计算机通识（规划中）
 ```
 
-> 目录是**动态生成**的：`config.mts` 侧边栏只登记已实际完成的文章；规划中但未编写的章节只存在于 `tutorial/plan.md`（预目录）中，不创建占位文件，对应的目录会在文章完成后才出现。
+> 目录是**动态生成**的：`config.mts` 侧边栏只登记已实际完成的文章；规划中但未编写的章节只存在于 `tutorial/plan.md`（预目录）中，不创建占位文件，对应的目录会在文章完成后才出现。`plan.md` 是给写作者和维护者看的内部规划，本身不进侧边栏。
+
+## 写作前必读（人与 AI 通用）
+
+不管是人还是 AI 代理，动笔写文章、调整目录前请按顺序读这三个文件：
+
+| 顺序 | 文件 | 它决定什么 |
+|------|------|-----------|
+| 1 | [`vitepress/docs/tutorial/plan.md`](./vitepress/docs/tutorial/plan.md) | **预目录 + 进度**：每篇文章的路径、编号、标题、定位与完成状态 |
+| 2 | [`PROJECT_SPEC.md`](./PROJECT_SPEC.md) | 项目定位、目标读者、教学目标、双线课程结构 |
+| 3 | [`STYLE_GUIDE.md`](./STYLE_GUIDE.md) | 语气、结构、格式、术语与代码示例规范 |
+
+AI 代理的相同约定另写在 [`AGENTS.md`](./AGENTS.md) 与 `.opencode/agents/*.md` 中，任一入口都会指向 `plan.md`。
 
 ## 本地运行
 

@@ -38,6 +38,9 @@ permission:
 
 ### 2. 内容验收（内容创作助手交付）
 验收通过条件：
+- ✅ 文章的路径、编号、标题与 `vitepress/docs/tutorial/plan.md`（预目录）一致
+- ✅ `plan.md` 中该篇状态已更新为 ✅，且已在 `config.mts` 侧边栏登记
+- ✅ 未新增"建设中"占位文件（规划中的文章只应存在于 `plan.md`）
 - ✅ 内容符合 STYLE_GUIDE.md 风格规范
 - ✅ 术语表完整准确
 - ✅ 实战步骤清晰可操作

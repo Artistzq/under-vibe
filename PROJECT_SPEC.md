@@ -99,8 +99,11 @@ AI 遇到报错              → 错误信息、执行流程、状态、日志�
 - `STYLE_GUIDE.md`：文章语气、结构、格式、术语和代码示例规范
 - `vitepress/docs/tutorial/plan.md`：文章目录、学习顺序、文章状态（进度维护）
 - `README.md`：项目介绍、本地运行、贡献方式
+- `AGENTS.md`：AI 代理角色分工，以及"写作前必读 `plan.md`"的强制约定
 
 项目进度维护在 `plan.md` 中，不在本文件维护进度/待办清单。
+
+**写作入口约定**：任何写作者（人或 AI 代理）动笔前须先读 `vitepress/docs/tutorial/plan.md`（预目录 + 进度），再读本文件与 `STYLE_GUIDE.md`。该约定同时写在 `AGENTS.md`、`README.md` 以及 `.opencode/agents/*.md` 的代理提示词中，保证从任一入口进入项目都会被引导到 `plan.md`。
 
 ## 未来交互功能（展望）
 

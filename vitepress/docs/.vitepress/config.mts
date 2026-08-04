@@ -12,10 +12,6 @@ export default withMermaid({
     ],
     sidebar: [
       {
-        text: '📐 学习路径（预目录）',
-        link: '/tutorial/plan'
-      },
-      {
         text: '前言',
         items: [
           { text: '为什么要做这个项目？', link: '/tutorial/why-this-project' },

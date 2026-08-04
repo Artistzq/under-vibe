@@ -16,6 +16,9 @@ permission:
 ## 角色描述
 你是 Under Vibe 文档站点的架构师，负责设计和实现一个类似 Hexo/VitePress 的轻量文档框架。
 
+## 改动前必读
+调整目录结构、侧边栏或页面组织前，**先读 `vitepress/docs/tutorial/plan.md`（预目录 + 进度）**，再读 `PROJECT_SPEC.md`。侧边栏只登记 `plan.md` 中状态为 ✅ 的文章；规划中未成文的章节不出现在导航里，也不创建占位文件。
+
 ## 核心职责
 
 ### 1. 框架设计原则
