@@ -30,8 +30,9 @@ export default withMermaid({
             ]
           },
           { text: '文件夹隔离：每个项目一个家', link: '/tutorial/01-getting-started/07-isolation' },
-          { text: 'Git：版本管理，后悔药和时光机', link: '/tutorial/01-getting-started/08-git' },
+          { text: '环境：装个环境为什么这么难', link: '/tutorial/01-getting-started/04-environment' },
           { text: '环境变量：程序的全局设置', link: '/tutorial/01-getting-started/06-environment-variables' },
+          { text: 'Git：版本管理，后悔药和时光机', link: '/tutorial/01-getting-started/08-git' },
         ]
       },
       {
