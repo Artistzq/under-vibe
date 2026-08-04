@@ -54,11 +54,11 @@ features:
         <span class="recent-desc">VibeCoding 需要的基本功，都补在这里</span>
       </span>
     </a>
-    <a class="recent-item" href="/tutorial/start-here">
-      <span class="recent-date">07.12</span>
+    <a class="recent-item" href="/tutorial/plan">
+      <span class="recent-date">08.04</span>
       <span class="recent-line">
-        <span class="recent-title">从这里开始</span>
-        <span class="recent-desc">有想法，但不知道从哪开始？</span>
+        <span class="recent-title">学习路径与目录规划</span>
+        <span class="recent-desc">预目录：整条学习路径与章节蓝图，一目了然</span>
       </span>
     </a>
   </div>

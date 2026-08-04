@@ -60,16 +60,16 @@ under-vibe/
         │   ├── config.mts
         │   └── theme/
         └── tutorial/
+            ├── plan.md              # 学习路径与目录规划（预目录）
             ├── why-this-project.md
-            ├── start-here.md
-            ├── technical-choices.md
-            ├── coming-soon.md
-            ├── 01-getting-started/
-            ├── 02-cs-fundamentals/
-            ├── 03-engineering/
-            ├── 04-debugging/
-            └── 05-ai/
+            ├── 01-getting-started/  # 上手篇
+            ├── 02-cs-fundamentals/  # 基础篇（规划中）
+            ├── 03-engineering/      # 工程篇（规划中）
+            ├── 04-debugging/        # 排错篇（规划中）
+            └── 05-ai/               # AI 篇（规划中）
 ```
+
+> 目录是**动态生成**的：侧边栏只登记已实际完成的文章；规划中但未编写的章节只存在于 `tutorial/plan.md`（预目录）中，不创建占位文件，对应的目录也会在文章完成后才出现。
 
 ## 本地运行
 
@@ -103,4 +103,4 @@ npm run preview  # vitepress preview docs
 
 ## 如何贡献
 
-欢迎参与写作与校对。写作前请先阅读 [STYLE_GUIDE.md](./STYLE_GUIDE.md) 了解风格约定（先说人话再说术语、命令同时给出 macOS/Linux 与 Windows 版本、章节末附术语表等），并把新增章节登记到 `vitepress/docs/.vitepress/config.mts` 的侧边栏中。
+欢迎参与写作与校对。写作前请先阅读 [STYLE_GUIDE.md](./STYLE_GUIDE.md) 了解风格约定（先说人话再说术语、命令同时给出 macOS/Linux 与 Windows 版本、章节末附术语表等）。**动笔前先看 `vitepress/docs/tutorial/plan.md`（预目录）**，确认文章的路径、标题与定位，写成后把该篇状态改为 ✅，并在 `vitepress/docs/.vitepress/config.mts` 的侧边栏登记链接。
