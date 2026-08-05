@@ -52,10 +52,10 @@ tutorial/
 ├── 01-project-startup/           # 第一站 · 项目启动
 │   ├── 01-terminal.md            # ✅ 终端：那个黑窗口是什么
 │   ├── 02-command-structure.md   # ✅ 看懂一条命令：选项和参数
-│   ├── 03-path-and-file-system.md # ✅ 文件系统：路径是怎么回事
+│   ├── 03-path-and-file-system.md # ✅ 路径：文件在电脑上的地址
 │   ├── 04-environment.md         # ✅ 环境：装个环境为什么这么难
 │   ├── 05-environment-variables.md #  环境变量：程序的全局设置
-│   └── 06-dependencies.md        # ✅ 依赖：npm install 到底装了什么
+│   └── 06-dependencies.md        # ✅ 依赖：项目为什么跑不起来
 │
 ├── 02-project-understanding/     # 第二站 · 看懂项目
 │   ├── 01-project-structure.md   #    一个项目为什么长这样
@@ -122,7 +122,7 @@ tutorial/
 | 03 | `03-path-and-file-system.md` | ✅ | 路径、相对/绝对路径，文件在电脑上怎么组织 |
 | 04 | `04-environment.md` | ✅ | 语言、运行时、包管理器、依赖，环境到底指什么 |
 | 05 | `05-environment-variables.md` | 规划中 | PATH 等环境变量：是什么、怎么查看和修改 |
-| 06 | `06-dependencies.md` | ✅ | 依赖与包管理器：`npm install` 到底装了什么 |
+| 06 | `06-dependencies.md` | ✅ | 依赖缺失、版本不符、安装位置错误时的判断与处理 |
 
 ### 第二站 · 看懂项目 `02-project-understanding`
 

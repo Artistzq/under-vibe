@@ -27,10 +27,10 @@ export default withMermaid({
         text: '第一站 · 项目启动',
         items: [
           { text: '终端：那个黑窗口是什么', link: '/tutorial/01-project-startup/01-terminal' },
-          { text: '看懂一条命令：选项和参数', link: '/tutorial/01-project-startup/02-command-structure' },
-          { text: '文件系统：路径是怎么回事', link: '/tutorial/01-project-startup/03-path-and-file-system' },
+          { text: '命令结构：选项和参数', link: '/tutorial/01-project-startup/02-command-structure' },
+          { text: '路径：文件在电脑上的地址', link: '/tutorial/01-project-startup/03-path-and-file-system' },
           { text: '环境：装个环境为什么这么难', link: '/tutorial/01-project-startup/04-environment' },
-          { text: '依赖：npm install 到底装了什么', link: '/tutorial/01-project-startup/06-dependencies' },
+          { text: '依赖：项目为什么跑不起来', link: '/tutorial/01-project-startup/06-dependencies' },
         ]
       },
     ],
