@@ -26,7 +26,10 @@ help:
 install:
 	cd vitepress && npm install
 
-dev prev:
+dev: install
+	cd vitepress && npm run dev -- --port $(PORT)
+
+prev: install
 	cd vitepress && npm run dev -- --port $(PORT)
 
 build:
