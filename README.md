@@ -27,7 +27,7 @@ Under Vibe 要补的，正是那些**写代码的人觉得你肯定知道、但�
 > ✅ 这个项目是什么：它是那些"写代码的人觉得肯定知道，但没人告诉你"的事。
 > ❌ 这个项目不是什么：不是编程入门教程（不教写代码）、不是计算机专业课、不是 AI 教程。
 
-读完它不会让你变成程序员，但和 AI 合作的时候，会少很多"卡住了不知道怎么办"的时刻。
+课程采用**双线结构**：主线带你和一个 AI 一起把真实项目从零做到上线，理论线按需解释途中遇到的计算机知识（终端、文件系统、网络、存储、排错、部署等），并在每个阶段配 Build Lab 手动实验、把更深的通识放进支线知识库。读完它不会让你变成程序员，但和 AI 合作的时候，会少很多"卡住了不知道怎么办"的时刻——你不仅看得懂 AI 在做什么，还能在它卡住或走偏时人工接管。
 
 ### 适合谁
 
@@ -60,16 +60,31 @@ under-vibe/
         │   ├── config.mts
         │   └── theme/
         └── tutorial/
-            ├── why-this-project.md
-            ├── start-here.md
-            ├── technical-choices.md
-            ├── coming-soon.md
-            ├── 01-getting-started/
-            ├── 02-cs-fundamentals/
-            ├── 03-engineering/
-            ├── 04-debugging/
-            └── 05-ai/
+            ├── plan.md                       # 学习路径与目录规划（预目录 + 进度维护）
+            ├── why-this-project.md           # 前言
+            ├── 00-roadmap/                   # 路线地图
+            ├── 01-project-startup/           # 第一站 · 项目启动
+            ├── 02-project-understanding/     # 第二站 · 看懂项目（规划中）
+            ├── 03-web-and-data/              # 第三站 · 网页与数据（规划中）
+            ├── 04-debugging-and-takeover/    # 第四站 · 排错与人工接管（规划中）
+            ├── 05-build-lab/                 # 实验专题 · Build Lab（规划中）
+            ├── 06-deployment-and-maintenance/# 第五站 · 部署与维护（规划中）
+            └── side-topics/                  # 支线 · 计算机通识（规划中）
 ```
+
+> 目录是**动态生成**的：`config.mts` 侧边栏只登记已实际完成的文章；规划中但未编写的章节只存在于 `tutorial/plan.md`（预目录）中，不创建占位文件，对应的目录会在文章完成后才出现。`plan.md` 是给写作者和维护者看的内部规划，本身不进侧边栏。
+
+## 写作前必读（人与 AI 通用）
+
+不管是人还是 AI 代理，动笔写文章、调整目录前请按顺序读这三个文件：
+
+| 顺序 | 文件 | 它决定什么 |
+|------|------|-----------|
+| 1 | [`vitepress/docs/tutorial/plan.md`](./vitepress/docs/tutorial/plan.md) | **预目录 + 进度**：每篇文章的路径、编号、标题、定位与完成状态 |
+| 2 | [`PROJECT_SPEC.md`](./PROJECT_SPEC.md) | 项目定位、目标读者、教学目标、双线课程结构 |
+| 3 | [`STYLE_GUIDE.md`](./STYLE_GUIDE.md) | 语气、结构、格式、术语与代码示例规范 |
+
+AI 代理的相同约定另写在 [`AGENTS.md`](./AGENTS.md) 与 `.opencode/agents/*.md` 中，任一入口都会指向 `plan.md`。
 
 ## 本地运行
 
@@ -103,4 +118,4 @@ npm run preview  # vitepress preview docs
 
 ## 如何贡献
 
-欢迎参与写作与校对。写作前请先阅读 [STYLE_GUIDE.md](./STYLE_GUIDE.md) 了解风格约定（先说人话再说术语、命令同时给出 macOS/Linux 与 Windows 版本、章节末附术语表等），并把新增章节登记到 `vitepress/docs/.vitepress/config.mts` 的侧边栏中。
+欢迎参与写作与校对。写作前请先阅读 [STYLE_GUIDE.md](./STYLE_GUIDE.md) 了解风格约定（先说人话再说术语、命令同时给出 macOS/Linux 与 Windows 版本、章节末附术语表等）。**动笔前先看 `vitepress/docs/tutorial/plan.md`（预目录）**，确认文章的路径、标题与定位，写成后把该篇状态改为 ✅，并在 `vitepress/docs/.vitepress/config.mts` 的侧边栏登记链接。项目整体定位与教学理念见 [PROJECT_SPEC.md](./PROJECT_SPEC.md)。

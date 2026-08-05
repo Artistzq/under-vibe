@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 和鼠鼠一起学习
-      link: /tutorial/why-this-project
+      link: /tutorial/00-roadmap/01-build-a-project-with-ai
     - theme: alt
       text: 查看鼠鼠主页
       link: https://github.com/kekenut
@@ -19,7 +19,7 @@ hero:
 features:
   - icon: 🖥️
     title: 从零上手
-    details: 终端、文件系统、Agent 配置——重新认识你的电脑，打开就能跟着做。
+    details: 终端、文件系统、环境与依赖——重新认识你的电脑，打开就能跟着做。
   - icon: 🧮
     title: 数学基础
     details: 离散数学入门，理解计算机的底层逻辑，不再是天书。
@@ -40,7 +40,14 @@ features:
 <div class="recent-section">
   <h2 class="recent-heading">最近更新</h2>
   <div class="recent-list">
-    <a class="recent-item" href="/tutorial/01-getting-started/01-terminal">
+    <a class="recent-item" href="/tutorial/00-roadmap/01-build-a-project-with-ai">
+      <span class="recent-date">08.04</span>
+      <span class="recent-line">
+        <span class="recent-title">用 AI 一起做项目：先看整段旅程</span>
+        <span class="recent-desc">课程路线地图，整段旅程一图看懂</span>
+      </span>
+    </a>
+    <a class="recent-item" href="/tutorial/01-project-startup/01-terminal">
       <span class="recent-date">08.03</span>
       <span class="recent-line">
         <span class="recent-title">终端：那个黑窗口是什么</span>
@@ -52,13 +59,6 @@ features:
       <span class="recent-line">
         <span class="recent-title">为什么要做这个项目</span>
         <span class="recent-desc">VibeCoding 需要的基本功，都补在这里</span>
-      </span>
-    </a>
-    <a class="recent-item" href="/tutorial/start-here">
-      <span class="recent-date">07.12</span>
-      <span class="recent-line">
-        <span class="recent-title">从这里开始</span>
-        <span class="recent-desc">有想法，但不知道从哪开始？</span>
       </span>
     </a>
   </div>
