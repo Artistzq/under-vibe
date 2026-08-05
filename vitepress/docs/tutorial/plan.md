@@ -51,11 +51,11 @@ tutorial/
 │
 ├── 01-project-startup/           # 第一站 · 项目启动
 │   ├── 01-terminal.md            # ✅ 终端：那个黑窗口是什么
-│   ├── 02-command-structure.md   #    看懂一条命令：选项和参数
-│   ├── 03-path-and-file-system.md #   文件系统：路径是怎么回事
+│   ├── 02-command-structure.md   # ✅ 看懂一条命令：选项和参数
+│   ├── 03-path-and-file-system.md # ✅ 文件系统：路径是怎么回事
 │   ├── 04-environment.md         # ✅ 环境：装个环境为什么这么难
 │   ├── 05-environment-variables.md #  环境变量：程序的全局设置
-│   └── 06-dependencies.md        #    依赖：npm install 到底装了什么
+│   └── 06-dependencies.md        # ✅ 依赖：npm install 到底装了什么
 │
 ├── 02-project-understanding/     # 第二站 · 看懂项目
 │   ├── 01-project-structure.md   #    一个项目为什么长这样
@@ -118,11 +118,11 @@ tutorial/
 | 编号 | 文章 | 状态 | 一句话定位 |
 |------|------|------|-----------|
 | 01 | `01-terminal.md` | ✅ | 终端（黑窗口）是什么，`pwd`/`ls`/`cd` 怎么用 |
-| 02 | `02-command-structure.md` | 规划中 | 一条命令的构成：程序、选项、参数、文档怎么查 |
-| 03 | `03-path-and-file-system.md` | 规划中 | 路径、相对/绝对路径，文件在电脑上怎么组织 |
+| 02 | `02-command-structure.md` | ✅ | 一条命令的构成：程序、选项、参数、文档怎么查 |
+| 03 | `03-path-and-file-system.md` | ✅ | 路径、相对/绝对路径，文件在电脑上怎么组织 |
 | 04 | `04-environment.md` | ✅ | 语言、运行时、包管理器、依赖，环境到底指什么 |
 | 05 | `05-environment-variables.md` | 规划中 | PATH 等环境变量：是什么、怎么查看和修改 |
-| 06 | `06-dependencies.md` | 规划中 | 依赖与包管理器：`npm install` 到底装了什么 |
+| 06 | `06-dependencies.md` | ✅ | 依赖与包管理器：`npm install` 到底装了什么 |
 
 ### 第二站 · 看懂项目 `02-project-understanding`
 
