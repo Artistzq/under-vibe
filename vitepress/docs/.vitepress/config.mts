@@ -30,7 +30,6 @@ export default withMermaid({
           { text: '命令结构：选项和参数', link: '/tutorial/01-project-startup/02-command-structure' },
           { text: '路径：文件在电脑上的地址', link: '/tutorial/01-project-startup/03-path-and-file-system' },
           { text: '环境：装个环境为什么这么难', link: '/tutorial/01-project-startup/04-environment' },
-          { text: '依赖：项目为什么跑不起来', link: '/tutorial/01-project-startup/06-dependencies' },
         ]
       },
     ],
