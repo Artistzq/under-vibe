@@ -32,6 +32,12 @@ export default withMermaid({
           { text: '环境：装个环境为什么这么难', link: '/tutorial/01-project-startup/04-environment' },
         ]
       },
+      {
+        text: '第二站 · 看懂项目',
+        items: [
+          { text: 'Git 基础：保存、回退、恢复', link: '/tutorial/02-project-understanding/04-git-basics' },
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/' }
