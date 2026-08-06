@@ -64,7 +64,7 @@ tutorial/
 │   └── 04-git-basics.md          #    Git 基础：保存、回退、恢复
 │
 ├── 03-web-and-data/              # 第三站 · 网页与数据
-│   ├── 01-client-server.md       #    客户端与服务端
+│   ├── 01-client-server.md       # ✅ 客户端与服务端
 │   ├── 02-http.md                #    HTTP：浏览器和服务器怎么聊天
 │   ├── 03-api.md                 #    API：程序之间怎么互相调用
 │   ├── 04-json-and-storage.md    #    JSON 与存储：数据放哪、怎么存
@@ -137,7 +137,7 @@ tutorial/
 
 | 编号 | 文章 | 状态 | 一句话定位 |
 |------|------|------|-----------|
-| 01 | `01-client-server.md` | 规划中 | 浏览器（客户端）与服务器如何分工协作 |
+| 01 | `01-client-server.md` | ✅ | 浏览器（客户端）与服务器如何分工协作 |
 | 02 | `02-http.md` | 规划中 | HTTP 请求与响应：浏览器和服务器怎么聊天 |
 | 03 | `03-api.md` | 规划中 | API：程序之间怎么互相调用，返回什么 |
 | 04 | `04-json-and-storage.md` | 规划中 | JSON 与文件/数据库存储：数据放哪、怎么存 |

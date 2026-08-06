@@ -32,6 +32,12 @@ export default withMermaid({
           { text: '环境：装个环境为什么这么难', link: '/tutorial/01-project-startup/04-environment' },
         ]
       },
+      {
+        text: '第三站 · 网页与数据',
+        items: [
+          { text: '客户端与服务端：浏览器和服务器怎么分工协作', link: '/tutorial/03-web-and-data/01-client-server' },
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/' }
