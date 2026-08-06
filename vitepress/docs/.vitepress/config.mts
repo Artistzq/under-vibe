@@ -32,6 +32,12 @@ export default withMermaid({
           { text: '环境：装个环境为什么这么难', link: '/tutorial/01-project-startup/04-environment' },
         ]
       },
+      {
+        text: '第二站 · 看懂项目',
+        items: [
+          { text: '运行时与进程：程序是怎么跑起来的', link: '/tutorial/02-project-understanding/03-runtime-and-process' },
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/' }
