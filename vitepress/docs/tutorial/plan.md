@@ -54,7 +54,7 @@ tutorial/
 │   ├── 02-command-structure.md   # ✅ 看懂一条命令：选项和参数
 │   ├── 03-path-and-file-system.md # ✅ 路径：文件在电脑上的地址
 │   ├── 04-environment.md         # ✅ 环境：装个环境为什么这么难
-│   ├── 05-environment-variables.md #  环境变量：程序的全局设置
+│   ├── 05-environment-variables.md # ✅ 环境变量：程序的全局设置
 │   └── 06-dependencies.md        #    依赖：项目为什么跑不起来（WIP）
 │
 ├── 02-project-understanding/     # 第二站 · 看懂项目
@@ -121,7 +121,7 @@ tutorial/
 | 02 | `02-command-structure.md` | ✅ | 一条命令的构成：程序、选项、参数、文档怎么查 |
 | 03 | `03-path-and-file-system.md` | ✅ | 路径、相对/绝对路径，文件在电脑上怎么组织 |
 | 04 | `04-environment.md` | ✅ | 语言、运行时、包管理器、依赖，环境到底指什么 |
-| 05 | `05-environment-variables.md` | 规划中 | PATH 等环境变量：是什么、怎么查看和修改 |
+| 05 | `05-environment-variables.md` | ✅ | PATH 等环境变量：是什么、怎么查看和修改 |
 | 06 | `06-dependencies.md` | 规划中 | 依赖缺失、版本不符、安装位置错误时的判断与处理（WIP，方向待论证） |
 
 ### 第二站 · 看懂项目 `02-project-understanding`
