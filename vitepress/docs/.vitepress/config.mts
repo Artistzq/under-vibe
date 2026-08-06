@@ -27,6 +27,8 @@ export default withMermaid({
         text: '第一站 · 项目启动',
         items: [
           { text: '终端：那个黑窗口是什么', link: '/tutorial/01-project-startup/01-terminal' },
+          { text: '命令结构：选项和参数', link: '/tutorial/01-project-startup/02-command-structure' },
+          { text: '路径：文件在电脑上的地址', link: '/tutorial/01-project-startup/03-path-and-file-system' },
           { text: '环境：装个环境为什么这么难', link: '/tutorial/01-project-startup/04-environment' },
         ]
       },
