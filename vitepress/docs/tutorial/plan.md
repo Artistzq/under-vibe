@@ -58,7 +58,7 @@ tutorial/
 │   └── 06-dependencies.md        #    依赖：项目为什么跑不起来（WIP）
 │
 ├── 02-project-understanding/     # 第二站 · 看懂项目
-│   ├── 01-project-structure.md   #    一个项目为什么长这样
+│   ├── 01-project-structure.md   # ✅ 一个项目为什么长这样
 │   ├── 02-config-files.md        #    配置文件：.json .yaml .env
 │   ├── 03-runtime-and-process.md #    运行时与进程：程序是怎么跑起来的
 │   └── 04-git-basics.md          #    Git 基础：保存、回退、恢复
@@ -128,7 +128,7 @@ tutorial/
 
 | 编号 | 文章 | 状态 | 一句话定位 |
 |------|------|------|-----------|
-| 01 | `01-project-structure.md` | 规划中 | src/tests/docs/config 各司其职，项目为什么长这样 |
+| 01 | `01-project-structure.md` | ✅ | src/tests/docs/config 各司其职，项目为什么长这样 |
 | 02 | `02-config-files.md` | 规划中 | JSON/YAML/.env 是干什么的，为什么密码不写代码里 |
 | 03 | `03-runtime-and-process.md` | 规划中 | 运行时与进程：命令为什么能启动程序，端口是什么 |
 | 04 | `04-git-basics.md` | 规划中 | Git 版本管理：保存、回退、恢复，每一步可撤销 |
